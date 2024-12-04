@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mrs. Carey's First Grade Fun</title>
+        <link rel="icon" type="image/x-icon" href="Mrs. Carey.png">
         <style>
            .heading {
             padding: 20px;
@@ -10,16 +12,13 @@
             background-color: #FFFFFC;
             color: #FFADAD;
             font-size: 40px;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-           }
-           .navbar {
-            width: 300px;
-            background-color: #FFFFFC;
-            padding: 10px;
-            
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 50%;
+            overflow: hidden;
+            margin: auto;
            }
 
-           .contactinfo {
+           #one {
             font-size: 15px;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #FFFFFC;
@@ -28,38 +27,146 @@
             align-content: center;
             padding: 10px;
             text-align: center;
-            border-radius: 10%
+            border-radius: 10%;
+            height: 48vh;
            }
+
+           div {
+            float: left;
+           }
+
+           #two {
+            float: right
+           }
+
+           ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #FFFFFC;
+                text-align: center; 
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: #FFADAD;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #FDFFB6;
+            }
+
+
+            .links {
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 10px;
+                position: center;
+
+            }
+            
+            * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
         
+
         </style>
     </head>
     <body style="background-color: #FFADAD;">
         <h1 class="heading">Mrs. Carey's First Grade Fun</h1>
-    <div class="navbar">
-        <nav style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-            <a href="blog.html">Blog</a>
-            <a href="whatyourstudentwilllearn.html">Curriculum</a>
-            <a href="teachertips.html">Teacher Tips</a>
-        </nav>
-    </div>
+        <br>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="blog.html">Blog</a></li>
+            <li><a href="whatyourstudentwilllearn.html">Curriculum</a></li>
+            <li><a href="teachertips.html">Teacher Tips</a></li>
+        </ul> 
         <hr>
-    <div class="contactinfo">
-        <h3>Contact Mrs. Carey</h3>
+    <div id="one">
+        <h2>Contact Mrs. Carey</h2>
         <img src="IMG_9527.JPG" alt="mom" style="width:40%; border-radius: 50%;"/>
         <p>Hi! My name is Sarah Carey!</p>
         <p>Email: careys@newegypt.us</p>
         <p>Phone: (732) 272-8914</p>
         <p>New Egypt Elementary School</p>
     </div>
-    <div>
+    
+    <div id="two" style="background-color: #FFD6A5; height: 48vh; border: 10px, solid; color: #FFFFFC; width: 78%; margin-bottom: 10px;">
+        <h2 style="text-align: center; padding: 10px; color: #FFFFFC; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Updates from Blogs!</h2>
+        <ul style="background-color: #FFD6A5; padding: 5px;">
+            <a href="blog.html">Read With Us!</a><br><br>
+            <a href="blog.html">Ways to Help Your Student!</a><br><br>
+            <a href="blog.html">School List!</a><br><br>
+            <a href="blog.html">First Grade Holidays!</a><br><br>
+            <a href="blog.html">The Best First Day!</a>
+        </ul>
+        <div>
+            <div style="position: relative; left: 70px; top: -250px;">
+              <img src="betterorange.png" alt="firstgrade" style="width:60%">
+            </div>
+            
+            <div style="position: relative; left: 200px; top: -250px;">
+                <img src="betterorange.png" alt="firstgrade" style="width:60%">
+              </div>
+         </div>
         
-
-
-
     </div>
-    <div>
-        
+
+    <div style="background-color: #a8ef9a; border: 10px, solid, #FFFFFC; height: 40vh; width: 100%; padding: 5px; margin-bottom: 10px; position: center;">
+        <h2 style="background-color: #a8ef9a; text-align: center; color:#FFFFFC; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Updates from Teacher Tips!</h2>
+        <ul style="background-color: #a8ef9a;">
+            <a href="teachertips.html">DIY Projects</a><br><br>
+            <a href="teachertips.html">Teacher Organization</a><br><br>
+            <a href="teachertips.html">Teachers Pay Teachers</a><br><br>
+            <a href="teachertips.html">Teacher Planning</a><br><br>
+            <a href="teachertips.html">Note Taking</a>
+        </ul>
+        <div style="position: relative; left: 80px; top: -200px;">
+            <img src="classroomdecor.jpg" alt="decor" style="width:35%">
+        </div>
+        <div style="position: relative; left: 200px; top: -200px;">
+            <img src="pompom-craft-400x245.jpg" alt="project" style="width:75%">
+        </div>
     </div>
-    <footer></footer>
+
+    <footer><br><br>
+        <table style="border: 4px, solid; width: 100%; margin: auto; color: white;">
+            <tr style="height: 5vh">
+                <th style="background-color: #FFADAD; color: #FFFFFC"></th>
+                <th style="background-color: #FFD6A5; color: #FFFFFC"></th>
+                <th style="background-color: #FDFFB6; color: #FFFFFC"></th>
+                <th style="background-color: #a8ef9a; color: #FFFFFC"></th>
+            </tr>
+            <tr style="height: 5vh">
+                <th style="background-color: #9BF6FF; color: #FFFFFC"></th>
+                <th style="background-color: #A0C4FF; color: #FFFFFC"></th>
+                <th style="background-color: #BDB2FF; color: #FFFFFC"></th>
+                <th style="background-color: #FFC6FF; color: #FFFFFC"></th>
+            </tr>
+        </table>
+        <p style="color:#FFFFFC; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">This website is &copy; 2024 Julia Carey.</p>
+    </footer>
     </body>
 </html>
