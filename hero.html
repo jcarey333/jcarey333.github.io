@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Julia Carey's Portfolio</title>
+    <style>
+        .titlestuff {
+            color: #feb9ad;
+        }
+
+        footer {
+            height: 10vh;
+        }
+       
+    </style>
+
+<script src="rps.js"></script>
+</head>
+
+<body style="background-color: #F8EDEB;">
+    <h1 class="titlestuff">Julia Carey's Portfolio</h1>
+    <nav>
+        <a href="hero.html">Home</a>
+        <a href="portfolio.html">Showcase</a>
+        <a href="aboutme.html">Resume & Courses</a>
+        <a href="contact.html">Contact</a> 
+    </nav>
+    <hr>
+    <ul>
+        <li>My name is Julia Carey!</li>
+        <li>I am currently a junior at High Point University! I am studying social media and digital communication!</li>
+        <li>I am currently a student but I also work with an interior designer to create social media content for her business!</li>
+        <li>I am very hardworking and organized. I love working with other people and I'm always an advocate to do better! I take my work and grades very seriously so I always try to be better than my last project!</li>
+        <li>I will be in school for another year. After graduating HPU, I will hopefully land a job in the social media or content creation inductry.</li>
+    </ul>
+
+    <img src="IMG_7691.png" alt="pic of me" style="width:25%"/>
+
+    <br><br><br>
+    <button onclick="playRound('rock')">Rock</button>
+    <button onclick="playRound('paper')">Paper</button>
+    <button onclick="playRound('scissors')">Scissors</button>
+    
+    <br><br>
+    <div>User Choice: </div>
+    <div id="userChoice"></div>
+    <br><br>
+    
+    <div>Computer Choice: </div>
+    <div id="computerChoice"></div>
+    <br><br>
+    
+    <div>Result: </div>
+    <div id="result"></div>
+
+</body>
+
+<footer style="height: 10vh;">
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+
+    <button type="button"
+    onclick="document.getElementById('hide')">Click to hide Table</button>
+    
+    <script>
+        function myFunction() {
+            var x =
+        document.getElementById('hide');
+            if (hide.style.display === "none") {
+                hide.style.display = "table";
+            } else {
+        hide.style.display = "none";
+            }
+        }
+    </script>
+
+    <table id="hide"; style="border: .5px solid; width: 100%; margin: auto; color: grey">
+        <tr style="height: 10vh">
+            <th style="background-color: #FEC5BB; color: white"></th>
+            <th style="background-color: #FCD5CE; color: white"></th>
+            <th style="background-color: #FAE1DD; color: white"></th>
+            <th style="background-color: #F8EDEB; color: white"></th>
+        </tr>
+        <tr style="height: 10vh">
+            <th style="background-color: #efe4d7; color: white"></th>
+            <th style="background-color: #FFE5D9; color: white"></th>
+            <th style="background-color: #FFD7BA; color: white"></th>
+            <th style="background-color: #FEC89A; color: white"></th>
+        </tr>
+    </table>
+
+
+    
+    
+
+<p id="demo"></p>
+</footer>
+
+</html>
